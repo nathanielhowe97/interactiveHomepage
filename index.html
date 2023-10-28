@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <!-- <link rel="stylesheet" type="text/css" href="styles.css"> -->
+    <link rel="stylesheet" type="text/css" href="index.css">
+
+    <script src="render.js" defer></script>
+    <script src="main.js" defer></script>
+    <title>Interactive Homepage</title>
+</head>
+<body id="body">
+    <nav>
+        <span id="account-settings" class="material-symbols-outlined">account_circle</span>
+        <span id="confirm" class="material-symbols-outlined">close</span>
+    </nav>
+
+
+    <header class="welcome" id="welcome">
+        <div class="greeting-text">
+            <h2 id="greeting">Hi there, <span id="greeting-name">user</span></h2>
+    </header>
+
+    <main>
+        <div class="courses-wrapper wrapper">
+            <h2 class="courses-header header">
+                <span class="material-symbols-outlined">school</span> 
+                Courses
+            </h2>
+            <div class="courses-container container">
+                <div class="container-card">
+                    <img src="images/html_css.png" alt="Ethics of Street Photography Cover">
+                    <h3>Introduction to HTML and CSS</h3>
+                    <button class="begin">Begin</button>
+                </div>
+                
+                <div class="container-card">
+                    <img src="images/javascript.png" alt="Ethics of Street Photography Cover">
+                    <h3>Fundamentals of Javascript</h3>
+                    <button class="begin">Begin</button>
+                </div>
+                
+                <div class="container-card">
+                    <img src="images/css.png" alt="Ethics of Street Photography Cover">
+                    <h3>Getting started with CSS </h3>
+                    <button class="begin">Begin</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="blogs-wrapper wrapper">
+            <h2 class="courses-header header">
+                <span class="material-symbols-outlined">book</span> 
+                Blogs
+            </h2>
+
+            <div class="blogs-container container">
+                <div class="container-card">
+                    <img src="images/blog_general_css.png" alt="General CSS Updates and Info Cover">
+                    <h3>Queries: @grid & @container</h3>
+                    <button class="read-more">Read more</button>
+                </div>
+                
+                <div class="container-card">
+                    <img src="images/blog_general_css.png" alt="General CSS Updates and Info Cover">
+                    <h3>Annual State of CSS Survey</h3>
+                    <button class="read-more">Read more</button>
+                </div>
+                
+                <div class="container-card">
+                    <img src="images/blog_general_css.png" alt="General CSS Updates and Info Cover">
+                    <h3>How in the world do you style inputs?</h3>
+                    <button class="read-more">Read more</button>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <div class="off-screen-elements">     
+        <div class="log-in-wrapper" id="log-in-wrapper">
+            <h2>Sign up</h2>
+
+            <section id="log-in">
+                <input type="text" id="fname" placeholder="First Name">
+                <input type="email" id="email" placeholder="Email">
+                <a href="index.html" id="submit" class="inactive"><button>Sign up</button></a>
+            </section>
+        </div>
+            <div class="transition" id="transition">
+                <h3>Loading...</h3>
+            </div>
+        </div>
+
+        <div class="settings-wrapper">
+            <h2>Account Information</h2>
+            <form>
+                <fieldset>
+                    <legend>FIRST NAME</legend>
+
+                    <div class="info-inputs">
+                        <input disabled  id="editName" class="hidden" type="text">
+                        <span id="edit" class="material-symbols-outlined">edit</span>
+                        <span id="save" class="material-symbols-outlined">check</span>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
