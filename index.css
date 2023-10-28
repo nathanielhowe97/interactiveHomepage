@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@400;500;600;700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
 
 :root{
     --clr-0: #2e2e39;
@@ -48,7 +48,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 #greeting{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Mukta', system-ui, Helvetica, san-serif ;
     animation: fadeIn 0.3s linear;
     width:auto;
     font-size:2rem;
@@ -127,7 +127,7 @@ h1, h2, h3, h4, h5, h6{
     animation: fadeIn 0.3s linear;
     text-underline-offset: 5px;
     display:inline;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Mukta', system-ui, Helvetica, san-serif ;
 
     margin:0;
     padding:0;

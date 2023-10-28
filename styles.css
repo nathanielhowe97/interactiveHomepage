@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+
 :root{
     --clr-0: #2e2e39;
     --clr-50: #d8e2ed;
@@ -10,6 +12,8 @@
 html, body{
     margin:0;
     padding:0;
+
+    font-family: 'Mukta', system-ui, Helvetica, san-serif ;
 }
 
 h1{
