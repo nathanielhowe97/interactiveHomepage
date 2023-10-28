@@ -48,7 +48,7 @@ if (!greetingName.textContent){
 
 submit.addEventListener('click', function(){
     if (inputName.value === "" || inputEmail.value === "" || inputEmail.value && inputEmail.value === ""){
-        alert('error')
+        alert('You must fill out all form fields')
     }   else{
 
         let usersName = localStorage.setItem('usersName', inputName.value)

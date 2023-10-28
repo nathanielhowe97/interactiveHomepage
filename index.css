@@ -173,6 +173,7 @@ h1, h2, h3, h4, h5, h6{
     height:100dvh;
     align-items: center;
     justify-content: center;
+    background-color: var(--clr-100);
     
     z-index: 998;
 
@@ -195,7 +196,7 @@ h1, h2, h3, h4, h5, h6{
             border:0;
             border-radius:0.4rem;
             border: 1px solid var(--clr-50);
-            color: rgb(91, 91, 91);
+            color: #5b5b5b;
         }
     
         & a{
@@ -206,15 +207,19 @@ h1, h2, h3, h4, h5, h6{
             background-color: var(--clr-accent);
             cursor: pointer;
             border:0;
-            color: var(--clr-100);
+            color: var(--clr-10);
             text-decoration: none;  
             transition: .3s linear;
+
+            &:hover{
+                background-color: var(--clr-accent-dark);
+            }
         }
     
         & button{
             background:0;
             border:0;
-            color: var(--clr-100);
+            color: var(--clr-10);
             cursor: pointer;
         }
     }
@@ -325,7 +330,6 @@ h1, h2, h3, h4, h5, h6{
     }
 
     .settings-wrapper{
-        display:flex;
         align-items: center;
         justify-content: center;
     }
@@ -337,6 +341,9 @@ h1, h2, h3, h4, h5, h6{
         grid-template-rows: 1fr 1fr;
     }
 
+    #log-in{
+        width:50% !important;
+    }
     .wrapper{
         max-width:75%;
     }
@@ -350,5 +357,13 @@ h1, h2, h3, h4, h5, h6{
 
     .wrapper{
         max-width:75%;
+    }
+
+    #log-in{
+        width:75% !important;
+    }
+
+    input{
+        width:200%;
     }
 }
